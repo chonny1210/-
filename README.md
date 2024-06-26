@@ -29,9 +29,9 @@ Here are some ideas to get you started:
 ## 수업 자료( ☀️ 2024년 3월 23일 updated)
 
 
-- **1. RAC 개념**:  📄[노트](https://chonny1210.tistory.com/)
+- **1. T STORY **:  📄[노트](https://chonny1210.tistory.com/)
   &nbsp;
   
-- **2. 클러스터(cluster) 가 무엇인가 ?**: 📄 [노트](https://github.com/oracleyu01/rac_class/blob/main/RAC%ED%95%B5%EC%8B%AC2.%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0(Cluster)%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
+- **2. SQL 포트폴리오?**: 📄 [노트](https://github.com/chonny1210/chonny1210/blob/main/11%EC%A1%B0_%20%EB%B0%95%EC%A7%84%EC%9A%B0%26%20%EC%A1%B0%ED%98%9C%EC%A0%95%20(1).pdf)
   
 - **3. RAC 를 운영할 때 필요한 IP 3가지 ?**: 📄[노트](https://github.com/oracleyu01/rac_class/blob/main/RAC%ED%95%B5%EC%8B%AC3.%20RAC%20%EB%A5%BC%20%EC%9A%B4%EC%98%81%ED%95%A0%20%EB%95%8C%20%ED%95%84%EC%9A%94%ED%95%9C%20IP%203%EA%B0%80%EC%A7%80.md)
