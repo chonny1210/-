@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 초보자도 쉽게 배울 수 있도록 SQL 수업 내용을 정리하였습니다.
 
-<img src="https://github.com/oracleyu01/rac_class/blob/main/001.png?raw=true" width="600" height="400">
+<img src="https://github.com/chonny1210/chonny1210/blob/main/001%20(1).png" width="600" height="400">
 
 &nbsp;
 
