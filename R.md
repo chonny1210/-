@@ -84,9 +84,9 @@
 
 - **32. 함수 생성**: 📄 [노트](https://chonny1210.tistory.com/69)
 
-- **33.  IF문 / LOOP문 작성 법**: 📄 [노트](https://chonny1210.tistory.com/manage/posts/)
+- **33. IF문 / LOOP문 작성 법**: 📄 [노트](https://chonny1210.tistory.com/manage/posts/)
 
-- **34.  !**: 📄 [노트](h)
+- **34. 시각화 툴의 역사 (막대그래프)!**: 📄 [노트](https://chonny1210.tistory.com/71)
 
 - **35.  !**: 📄 [노트](h)
 
