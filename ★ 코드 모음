@@ -96,4 +96,22 @@ fig <- plot_ly(data, x = ~time) %>%
   add_trace(y = ~out_cnt, name = '하차', type = 'scatter', mode = 'lines+markers', line = list(color = 'red'))
 
 
-fig
+
+** 지하철 라인그래프
+# 작업 디렉토리 설정
+setwd("c:\\data")
+
+# 지하철철 데이터 로드
+data <- read.csv("1-4호선승하차승객수_수정된것.csv", header = TRUE)
+data
+
+# plotly를 사용한 라인 그래프 생성
+fig <- plot_ly(data, 
+               x = ~time, 
+               y = ~in., 
+               color = ~line_no, 
+               colors = c('blue', 'red'),
+               type = 'scatter', mode = 'lines+markers')
+
+# 그래프 출력
+fig﻿​
