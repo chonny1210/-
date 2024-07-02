@@ -1,4 +1,4 @@
-**원형 그래프 생성**
+##원형 그래프 생성
 
 # 데이터 로드
 library(plotly)
@@ -6,7 +6,7 @@ setwd('c:\\data')
 usedcars <- read.csv("usedcars.csv", header=T, fileEncoding ='euc-kr') 
 
 
-# 모델델별 인원수 계산
+# 모델별 인원수 계산
 cars_cnt <- table(usedcars$model)
 cars_cnt 
 
@@ -22,7 +22,7 @@ fig <-plot_ly(labels = names(cars_cnt ),
 # 출력
 fig
 
---------------------------------------------------------------------------------------------------------
+
 ** 막대 그래프 생성**
 # 타이타닉 테이블 불러오기
 setwd('c:\\data')
@@ -115,3 +115,5 @@ fig <- plot_ly(data,
 
 # 그래프 출력
 fig﻿​
+
+##히스토그램 그래프
