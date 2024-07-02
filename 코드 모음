@@ -1,0 +1,50 @@
+** 원형 그래프 생성**
+
+# 데이터 로드
+library(plotly)
+setwd('c:\\data')
+usedcars <- read.csv("usedcars.csv", header=T, fileEncoding ='euc-kr') 
+
+
+# 모델델별 인원수 계산
+cars_cnt <- table(usedcars$model)
+cars_cnt 
+
+# 색상 목록 정의
+colors  <- c("#BBDEFB", "#FFCCBC", "#E8F5E9", "#FFF9C4", "#FCE4EC")
+
+# plotly 원형 그래프 생성
+fig <-plot_ly(labels = names(cars_cnt ),
+            values = as.numeric(cars_cnt ),
+            type='pie',
+            marker=list(colors =colors) )
+
+# 출력
+fig
+
+--------------------------------------------------------------------------------------------------------
+** 막대 그래프 생성**
+# 타이타닉 테이블 불러오기
+setwd('c:\\data')
+tat<-read.csv('tatanic2.csv',header =T, fileEncoding ='euc-kr') 
+tat
+
+# "plotly" 패키지 열기
+library(plotly)
+
+#성별별 인원수 계산 
+tat_counts <- table(tat$sex)
+tat_counts
+
+# Rcolorbrewer 팔래트 중에서 5가지 색상 선택
+
+# "RColorBrewer" 패키지 열기
+library(RColorBrewer) 
+colors <- brewer.pal( 5, "Set3")
+
+# plotly 를 사용한 막대 그래프 생성
+fig <- plot_ly( x = names(tat_counts), y=as.numeric(tat_counts), type='bar', 
+                marker=list(color=colors) )
+
+#그래프 출력
+fig﻿​
