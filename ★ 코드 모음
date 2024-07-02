@@ -48,3 +48,30 @@ fig <- plot_ly( x = names(tat_counts), y=as.numeric(tat_counts), type='bar',
 
 #그래프 출력
 fig﻿​
+
+
+**산포도 그래프 생성**
+# 데이터 불러오기
+library(plotly)
+setwd("c:\\data")
+usedcars <- read.csv("usedcars.csv", header=TRUE)
+
+# 산포도 그래프 생성
+fig <- plot_ly( data= usedcars,
+                x = ~mileage,
+                y = ~price,
+                type='scatter',
+                mode='markers',
+                marker = list(color='blue'))
+
+# 추세선 추가
+fig <- fig%>%add_trace(x=usedcars$mileage,
+                       y=fitted(lm(price~mileage, data=usedcars)),
+                       type='scatter',
+                       mode='lines',
+                       line=list(color='red'),
+                       name='Trend Line')
+
+# 그래프 출력
+fig
+
