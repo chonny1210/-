@@ -141,3 +141,6 @@ abline(v=mileage_stats$mean, col="blue", lwd=2, lty=2)   # 평균값
 abline(v=mileage_stats$median, col="green", lwd=2, lty=2) # 중앙값
 abline(v=mileage_stats$mode, col="purple", lwd=2, lty=2)  # 최빈값
 
+<img src="https://github.com/chonny1210/chonny1210/blob/main/%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8.png" width="600" height="400">
+
+&nbsp;
